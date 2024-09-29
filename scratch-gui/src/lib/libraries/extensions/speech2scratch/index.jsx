@@ -14,7 +14,7 @@ const translationMap = {
 };
 
 const entry = {
-    name: 'Speech2Scratch',
+    name: 'Riconoscimento vocale',
     extensionId: 'speech2scratch',
     extensionURL: 'https://champierre.github.io/speech2scratch/speech2scratch.mjs',
     collaborator: 'champierre',
