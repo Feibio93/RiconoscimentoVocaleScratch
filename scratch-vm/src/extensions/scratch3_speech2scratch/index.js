@@ -18,7 +18,7 @@ class Scratch3Speech2Scratch {
      * @return {string} - the name of this extension.
      */
     static get EXTENSION_NAME() {
-        return 'Speech2Scratch';
+        return 'Riconoscimento vocale';
     }
 
     /**
@@ -60,12 +60,12 @@ class Scratch3Speech2Scratch {
                 {
                     opcode: 'startRecognition',
                     blockType: BlockType.COMMAND,
-                    text: '音声認識開始'
+                    text: 'Ascolta e attendi'
                 },
                 {
                     opcode: 'getSpeech',
                     blockType: BlockType.REPORTER,
-                    text: '音声'
+                    text: 'Risultato riconoscimento vocale'
                 }
             ],
             menus: {
